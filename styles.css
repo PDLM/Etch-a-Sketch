@@ -1,0 +1,78 @@
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+
+#sketchBox{
+    width: 60%;
+    height: 70%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+#selections{
+    display: grid;
+    grid-template-rows: 60% 40%;
+    
+}
+
+.drawArea{
+    box-shadow: 0px 0px 0px 5px #0f0f0f;
+    transition: box-shadow 0.6s linear;
+    margin: 0.5em; 
+    display: grid;
+}
+
+.drawArea:hover { box-shadow: 0px 0px 0px 7px #585858; }
+
+.selectBrush{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.gridEditor{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+
+.colorPicker{
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    display: grid;
+
+}
+
+.eraseButton{
+    height: 100px;
+    width: 100px;
+    display: grid;
+    margin: 0 auto;
+}
+
+.colorTextStyle{
+    text-align: center;
+    font-size: 3.25em;
+    margin-bottom: 10px;
+}
+
+.gridTextStyle{
+    text-align: center;
+    font-size: 3.25em;
+}
+
+.gridSize{
+    text-align: center;
+    font-size: 2em;
+    align-self: end;
+}
